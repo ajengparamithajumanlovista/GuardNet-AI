@@ -14,3 +14,6 @@ Run backend:
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+project by ajeng,kanaya, dan allfariz
+guard-ai
