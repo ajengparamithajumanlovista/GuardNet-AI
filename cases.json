@@ -1,0 +1,4424 @@
+[
+    {
+        "case_id": "CASE-0001",
+        "created_at": "2026-08-12 21:46:16",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.7,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 0.4
+            }
+        },
+        "review_priority": {
+            "score": 0.625,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.7,
+                "evidence_strength": 0.56,
+                "entity_correlation": 0.8,
+                "payment_correlation": 0.8,
+                "recurrence": 0
+            }
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [
+                "qris",
+                "deposit",
+                "qr"
+            ],
+            "threat_indicator": [
+                "slot",
+                "gacor",
+                "daftar",
+                "bonus",
+                "deposit"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 4
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "qris"
+            ],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0002",
+        "created_at": "2026-08-13 00:25:10",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang Daftar @BUSA45 Main di busa45.com WA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.706,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1,
+                "payment_correlation": 0.8,
+                "recurrence": 0
+            }
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "deposit",
+                "qr",
+                "qris"
+            ],
+            "threat_indicator": [
+                "deposit",
+                "bonus",
+                "slot",
+                "gacor",
+                "daftar"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "qris",
+                "bank_account",
+                "phone_number"
+            ],
+            "risk": 0.75
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0003",
+        "created_at": "2026-08-13 00:43:02",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.766,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 0.6
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "payment_indicators": [],
+            "payment_indicator_count": 0,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "qris",
+                "bank_account",
+                "phone_number"
+            ],
+            "risk": 0.75
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "qris",
+                "qr",
+                "deposit"
+            ],
+            "threat_indicator": [
+                "deposit",
+                "slot",
+                "daftar",
+                "gacor",
+                "bonus"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "bank_account",
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 6,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 2,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": [
+                    "bank_account",
+                    "phone_number",
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 6,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 2,
+                "score": 0.6,
+                "level": "MEDIUM"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 2,
+            "score": 0.6,
+            "level": "MEDIUM"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0004",
+        "created_at": "2026-08-13 00:47:53",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.766,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 0.6
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "risk": 0.35,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                {
+                    "identifier": "************9020",
+                    "normalized": "+628123456789020"
+                }
+            ],
+            "payment_indicators": [
+                "QRIS_TEXT",
+                "PHONE_NUMBER"
+            ],
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "qris",
+                "bank_account",
+                "phone_number"
+            ],
+            "risk": 0.75
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "qris",
+                "qr",
+                "deposit"
+            ],
+            "threat_indicator": [
+                "gacor",
+                "bonus",
+                "daftar",
+                "deposit",
+                "slot"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "bank_account",
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 6,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "bank_account",
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 6,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 3,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": [
+                    "bank_account",
+                    "phone_number",
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 6,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 3,
+                "score": 0.6,
+                "level": "MEDIUM"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 3,
+            "score": 0.6,
+            "level": "MEDIUM"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0005",
+        "created_at": "2026-08-13 01:03:09",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.766,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 0.6
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "risk": 0.35,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                {
+                    "identifier": "************9020",
+                    "normalized": "+628123456789020"
+                }
+            ],
+            "payment_indicators": [
+                "QRIS_TEXT",
+                "PHONE_NUMBER"
+            ],
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "qris",
+                "phone_number"
+            ],
+            "risk": 0.35
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "qr",
+                "deposit",
+                "qris"
+            ],
+            "threat_indicator": [
+                "deposit",
+                "slot",
+                "bonus",
+                "daftar",
+                "gacor"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 4,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": [
+                    "phone_number",
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 5,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 4,
+                "score": 0.6,
+                "level": "MEDIUM"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 4,
+            "score": 0.6,
+            "level": "MEDIUM"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0006",
+        "created_at": "2026-08-13 01:07:10",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.766,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 0.6
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS_CONTEXT",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                {
+                    "identifier": "************9020",
+                    "normalized": "+628123456789020"
+                }
+            ],
+            "payment_context": true,
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "qris",
+                "deposit",
+                "qr"
+            ],
+            "threat_indicator": [
+                "bonus",
+                "daftar",
+                "gacor",
+                "deposit",
+                "slot"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 4,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": []
+            },
+            "shared_indicator_count": 3,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 4,
+                "score": 0.6,
+                "level": "MEDIUM"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 4,
+            "score": 0.6,
+            "level": "MEDIUM"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0007",
+        "created_at": "2026-08-13 01:11:32",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.806,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS_CONTEXT",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                {
+                    "identifier": "************9020",
+                    "normalized": "+628123456789020"
+                }
+            ],
+            "payment_context": true,
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "qris",
+                "qr",
+                "deposit"
+            ],
+            "threat_indicator": [
+                "bonus",
+                "slot",
+                "deposit",
+                "gacor",
+                "daftar"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0006",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 5,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": []
+            },
+            "shared_indicator_count": 3,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 5,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 5,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0008",
+        "created_at": "2026-08-13 01:14:57",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.806,
+            "priority": "HIGH",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.8,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS_CONTEXT",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                {
+                    "identifier": "************9020",
+                    "normalized": "+628123456789020"
+                }
+            ],
+            "payment_context": true,
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "deposit",
+                "qris",
+                "qr"
+            ],
+            "threat_indicator": [
+                "bonus",
+                "daftar",
+                "deposit",
+                "slot",
+                "gacor"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0006",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0007",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 6,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": []
+            },
+            "shared_indicator_count": 3,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 6,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 6,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0009",
+        "created_at": "2026-08-13 01:22:17",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang Daftar @BUSA45 Main di busa45.com WA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.738,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.35,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.35,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                "+628123456789020"
+            ],
+            "payment_indicators": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.35
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890",
+                "+628123456789020"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "deposit",
+                "qris",
+                "qr",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "gacor",
+                "slot",
+                "deposit",
+                "bonus",
+                "daftar"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0006",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0007",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0008",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 8,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": [
+                    "phone_number",
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 5,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 8,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 8,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0010",
+        "created_at": "2026-08-13 01:25:19",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor bonus besar deposit QRIS daftar sekarang\r\nDaftar @BUSA45\r\nMain di busa45.com\r\nWA 081234567890",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.76,
+            "evidence": {
+                "text": 0.9,
+                "ocr": 0.0,
+                "visual": 0.5,
+                "payment": 1,
+                "entity": 1.0
+            }
+        },
+        "review_priority": {
+            "score": 0.738,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.76,
+                "evidence_strength": 0.68,
+                "entity_correlation": 1.0,
+                "payment_correlation": 0.35,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [
+                "@busa45"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "contact": [
+                "+628123456789020"
+            ],
+            "entity_count": 3,
+            "status": "success",
+            "graph_links": [
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "@busa45",
+                    "relation": "has_account"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "busa45.com",
+                    "relation": "contains_domain"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "+628123456789020",
+                    "relation": "contains_contact"
+                }
+            ]
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.35,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [
+                "+628123456789020"
+            ],
+            "payment_indicators": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "payment_indicator_count": 2,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS",
+                "PHONE_NUMBER"
+            ],
+            "risk": 0.35
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [
+                "@BUSA45"
+            ],
+            "phone": [
+                "081234567890",
+                "+628123456789020"
+            ],
+            "url": [],
+            "domain": [
+                "busa45.com"
+            ],
+            "bank_account": [
+                "081234567890"
+            ],
+            "payment_indicator": [
+                "deposit",
+                "qris",
+                "qr",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "gacor",
+                "slot",
+                "deposit",
+                "bonus",
+                "daftar"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "account",
+                    "value": "@BUSA45"
+                },
+                {
+                    "type": "phone",
+                    "value": "081234567890"
+                },
+                {
+                    "type": "domain",
+                    "value": "busa45.com"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "@BUSA45",
+                    "relation": "posted_by"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "081234567890",
+                    "relation": "contact_number"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "busa45.com",
+                    "relation": "domain_reference"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 7
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0006",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0007",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0008",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": []
+                    },
+                    "shared_indicator_count": 3,
+                    "correlation_level": "HIGH"
+                },
+                {
+                    "case_id": "CASE-0009",
+                    "shared_indicators": {
+                        "account": [
+                            "@busa45"
+                        ],
+                        "domain": [
+                            "busa45.com"
+                        ],
+                        "url": [],
+                        "contact": [
+                            "+628123456789020"
+                        ],
+                        "payment": [
+                            "phone_number",
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 5,
+                    "correlation_level": "HIGH"
+                }
+            ],
+            "related_case_count": 9,
+            "shared_indicators": {
+                "account": [
+                    "@busa45"
+                ],
+                "domain": [
+                    "busa45.com"
+                ],
+                "url": [],
+                "contact": [
+                    "+628123456789020"
+                ],
+                "payment": [
+                    "phone_number",
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 5,
+            "correlation_level": "HIGH",
+            "recurrence": {
+                "count": 9,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 9,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "length": 386,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.34174644790257,
+            "mean_rgb": {
+                "r": 48.423921684709065,
+                "g": 46.769670162381594,
+                "b": 43.83164749661705
+            },
+            "visual_score": 0.5
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0011",
+        "created_at": "2026-08-13 02:47:17",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor hari ini, bonus member baru, daftar sekarang, deposit QRIS",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.754,
+            "confidence": 0.871,
+            "active_modalities": 3,
+            "reliability": {
+                "text": 0.91,
+                "ocr": 0.774,
+                "visual": 1.0,
+                "payment": 0.95,
+                "entity": 1.0
+            },
+            "adaptive_weights": {
+                "text": 0.398,
+                "ocr": 0.133,
+                "visual": 0.107,
+                "payment": 0.256,
+                "entity": 0.107
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.85,
+                    "label": "C2",
+                    "reliability": 0.91,
+                    "weight": 0.398
+                },
+                "ocr": {
+                    "score": 0.0,
+                    "gambling_terms": [],
+                    "promotional_terms": [],
+                    "reliability": 0.774,
+                    "weight": 0.133
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.107
+                },
+                "payment": {
+                    "score": 1.0,
+                    "evidence": [
+                        "QRIS"
+                    ],
+                    "reliability": 0.95,
+                    "weight": 0.256
+                },
+                "entity": {
+                    "score": 0.4,
+                    "reliability": 1.0,
+                    "weight": 0.107
+                }
+            },
+            "status": "success"
+        },
+        "review_priority": {
+            "score": 0.487,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.754,
+                "evidence_strength": 0,
+                "entity_correlation": 0.571,
+                "payment_correlation": 0.25,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [],
+            "payment_indicators": [
+                "QRIS"
+            ],
+            "payment_indicator_count": 1,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [
+                "qr",
+                "qris",
+                "deposit",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "daftar",
+                "gacor",
+                "slot",
+                "bonus",
+                "deposit"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 4
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0009",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0010",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                }
+            ],
+            "related_case_count": 7,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": [
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 1,
+            "correlation_level": "MEDIUM",
+            "recurrence": {
+                "count": 7,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 7,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "length": 463,
+            "raw_text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "normalized_text": "gap oo liege pp esis) 3/0) 9 es cap an 0 lid - eee beam “ = eo eepeeions: oe . q@ im_googole 8 menit “\" gila sih favorit banget busa45 3% v tiap malem di kasi jjatah busa45 9 balas lihat terjemahan lihat 1 balasan lainnya g@ kalpo_550 8 menit gampang scater bosku@ busa45 v @ ) balas lihat terjemahan lihat 1 balasan lainnya e its_raj_king_up_50 8 menit ~ top markotop seru abis busa45 i, gsampe lupa waktu )busa45 (> #) balas © tambahkan komentar u... (4",
+            "confidence": 0.596,
+            "quality": 0.717,
+            "gambling_terms": [],
+            "promotional_terms": [],
+            "preprocessing": "clahe_otsu",
+            "variants_tested": 4,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0012",
+        "created_at": "2026-08-13 02:54:43",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor hari ini, bonus member baru, daftar sekarang, deposit QRIS",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.871,
+            "active_modalities": 3,
+            "reliability": {
+                "text": 0.91,
+                "ocr": 0.774,
+                "visual": 1.0,
+                "payment": 0.95,
+                "entity": 1.0
+            },
+            "adaptive_weights": {
+                "text": 0.398,
+                "ocr": 0.133,
+                "visual": 0.107,
+                "payment": 0.256,
+                "entity": 0.107
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.85,
+                    "label": "C2",
+                    "reliability": 0.91,
+                    "weight": 0.398
+                },
+                "ocr": {
+                    "score": 0.163,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.774,
+                    "weight": 0.133
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.107
+                },
+                "payment": {
+                    "score": 1.0,
+                    "evidence": [
+                        "QRIS"
+                    ],
+                    "reliability": 0.95,
+                    "weight": 0.256
+                },
+                "entity": {
+                    "score": 0.4,
+                    "reliability": 1.0,
+                    "weight": 0.107
+                }
+            },
+            "status": "success"
+        },
+        "review_priority": {
+            "score": 0.494,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.775,
+                "evidence_strength": 0,
+                "entity_correlation": 0.571,
+                "payment_correlation": 0.25,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [],
+            "payment_indicators": [
+                "QRIS"
+            ],
+            "payment_indicator_count": 1,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [
+                "qris",
+                "qr",
+                "deposit",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "slot",
+                "gacor",
+                "bonus",
+                "daftar",
+                "deposit"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 4
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0009",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0010",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0011",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                }
+            ],
+            "related_case_count": 8,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": [
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 1,
+            "correlation_level": "MEDIUM",
+            "recurrence": {
+                "count": 8,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 8,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "length": 463,
+            "raw_text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "normalized_text": "gap oo liege pp esis) 3/0) 9 es cap | an 0 | | lid - eee beam “ = eo eepeeions: oe | . q@ im_googole 8 menit “\" gila sih favorit banget busa45 3% v tiap malem di kasi jjatah busa45 9 balas lihat terjemahan lihat 1 balasan lainnya g@ kalpo_550 8 menit gampang scater bosku@ busa45 v @ ) balas lihat terjemahan lihat 1 balasan lainnya e its_raj_king_up_50 8 menit ~ top markotop seru abis busa45 i, gsampe lupa waktu )busa45 (> #) balas © tambahkan komentar u... (4",
+            "confidence": 0.596,
+            "quality": 0.717,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "preprocessing": "clahe_otsu",
+            "variants_tested": 4,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0013",
+        "created_at": "2026-08-13 02:55:28",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor hari ini, bonus member baru, daftar sekarang, deposit QRIS",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.871,
+            "active_modalities": 3,
+            "reliability": {
+                "text": 0.91,
+                "ocr": 0.774,
+                "visual": 1.0,
+                "payment": 0.95,
+                "entity": 1.0
+            },
+            "adaptive_weights": {
+                "text": 0.398,
+                "ocr": 0.133,
+                "visual": 0.107,
+                "payment": 0.256,
+                "entity": 0.107
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.85,
+                    "label": "C2",
+                    "reliability": 0.91,
+                    "weight": 0.398
+                },
+                "ocr": {
+                    "score": 0.163,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.774,
+                    "weight": 0.133
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.107
+                },
+                "payment": {
+                    "score": 1.0,
+                    "evidence": [
+                        "QRIS"
+                    ],
+                    "reliability": 0.95,
+                    "weight": 0.256
+                },
+                "entity": {
+                    "score": 0.4,
+                    "reliability": 1.0,
+                    "weight": 0.107
+                }
+            },
+            "status": "success"
+        },
+        "review_priority": {
+            "score": 0.494,
+            "priority": "MEDIUM",
+            "components": {
+                "classification_confidence": 0.775,
+                "evidence_strength": 0,
+                "entity_correlation": 0.571,
+                "payment_correlation": 0.25,
+                "recurrence": 1.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [],
+            "payment_indicators": [
+                "QRIS"
+            ],
+            "payment_indicator_count": 1,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [
+                "qris",
+                "qr",
+                "deposit",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "slot",
+                "gacor",
+                "bonus",
+                "daftar",
+                "deposit"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 4
+        },
+        "cross_content_correlation": {
+            "related_cases": [
+                {
+                    "case_id": "CASE-0001",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0002",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0003",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0004",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0005",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0009",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0010",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0011",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                },
+                {
+                    "case_id": "CASE-0012",
+                    "shared_indicators": {
+                        "account": [],
+                        "domain": [],
+                        "url": [],
+                        "contact": [],
+                        "payment": [
+                            "qris"
+                        ]
+                    },
+                    "shared_indicator_count": 1,
+                    "correlation_level": "MEDIUM"
+                }
+            ],
+            "related_case_count": 9,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": [
+                    "qris"
+                ]
+            },
+            "shared_indicator_count": 1,
+            "correlation_level": "MEDIUM",
+            "recurrence": {
+                "count": 9,
+                "score": 1.0,
+                "level": "HIGH"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 9,
+            "score": 1.0,
+            "level": "HIGH"
+        },
+        "ocr": {
+            "text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "length": 463,
+            "raw_text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "normalized_text": "gap oo liege pp esis) 3/0) 9 es cap | an 0 | | lid - eee beam “ = eo eepeeions: oe | . q@ im_googole 8 menit “\" gila sih favorit banget busa45 3% v tiap malem di kasi jjatah busa45 9 balas lihat terjemahan lihat 1 balasan lainnya g@ kalpo_550 8 menit gampang scater bosku@ busa45 v @ ) balas lihat terjemahan lihat 1 balasan lainnya e its_raj_king_up_50 8 menit ~ top markotop seru abis busa45 i, gsampe lupa waktu )busa45 (> #) balas © tambahkan komentar u... (4",
+            "confidence": 0.596,
+            "quality": 0.717,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "preprocessing": "clahe_otsu",
+            "variants_tested": 4,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    },
+    {
+        "case_id": "CASE-0014",
+        "created_at": "2026-08-13 03:03:06",
+        "status": "PENDING_REVIEW",
+        "filename": "judi1.jpg.jpeg",
+        "caption": "Slot gacor hari ini, bonus member baru, daftar sekarang, deposit QRIS",
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.871,
+            "active_modalities": 3,
+            "reliability": {
+                "text": 0.91,
+                "ocr": 0.774,
+                "visual": 1.0,
+                "payment": 0.95,
+                "entity": 1.0
+            },
+            "adaptive_weights": {
+                "text": 0.398,
+                "ocr": 0.133,
+                "visual": 0.107,
+                "payment": 0.256,
+                "entity": 0.107
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.85,
+                    "label": "C2",
+                    "reliability": 0.91,
+                    "weight": 0.398
+                },
+                "ocr": {
+                    "score": 0.163,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.774,
+                    "weight": 0.133
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.107
+                },
+                "payment": {
+                    "score": 1.0,
+                    "evidence": [
+                        "QRIS"
+                    ],
+                    "reliability": 0.95,
+                    "weight": 0.256
+                },
+                "entity": {
+                    "score": 0.4,
+                    "reliability": 1.0,
+                    "weight": 0.107
+                }
+            },
+            "status": "success"
+        },
+        "review_priority": {
+            "score": 0.394,
+            "priority": "LOW",
+            "components": {
+                "classification_confidence": 0.775,
+                "evidence_strength": 0,
+                "entity_correlation": 0.571,
+                "payment_correlation": 0.25,
+                "recurrence": 0.0
+            }
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment_intelligence": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25,
+            "qris": {
+                "detected": false,
+                "context_detected": true,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null
+            },
+            "bank_account": [],
+            "e_wallet": [],
+            "phone_number": [],
+            "payment_indicators": [
+                "QRIS"
+            ],
+            "payment_indicator_count": 1,
+            "status": "success"
+        },
+        "payment": {
+            "detected": true,
+            "evidence": [
+                "QRIS"
+            ],
+            "risk": 0.25
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [
+                "qris",
+                "deposit",
+                "qr",
+                "QRIS"
+            ],
+            "threat_indicator": [
+                "daftar",
+                "slot",
+                "gacor",
+                "deposit",
+                "bonus"
+            ],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                },
+                {
+                    "type": "payment",
+                    "value": "qris"
+                },
+                {
+                    "type": "payment",
+                    "value": "qr"
+                },
+                {
+                    "type": "payment",
+                    "value": "deposit"
+                }
+            ],
+            "graph_links": [
+                {
+                    "source": "instagram_post",
+                    "target": "qris",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "qr",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "instagram_post",
+                    "target": "deposit",
+                    "relation": "payment_indicator"
+                },
+                {
+                    "source": "judi1.jpg.jpeg",
+                    "target": "QRIS_PAYMENT",
+                    "relation": "payment_indicator"
+                }
+            ],
+            "entity_count": 4
+        },
+        "cross_content_correlation": {
+            "related_cases": [],
+            "related_case_count": 0,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": []
+            },
+            "shared_indicator_count": 0,
+            "strong_shared_indicator_count": 0,
+            "correlation_level": "NONE",
+            "recurrence": {
+                "count": 0,
+                "score": 0.0,
+                "level": "NONE"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 0,
+            "score": 0.0,
+            "level": "NONE"
+        },
+        "ocr": {
+            "text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "length": 463,
+            "raw_text": "Gap oo LIEGE\nPP esis) 3/0) 9 es\ncap | aN 0 | | Lid -\nEee beam “\n= eo eepeeions: oe | .\nQ@ im_googole 8 menit\n“\" gila sih favorit banget BUSA45 3% V\ntiap malem di kasi Jjatah BUSA45 9\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ng@ Kalpo_550 8 menit\ngampang scater bosku@ BUSA45 V\n@ )\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\ne its_raj_king_up_50 8 menit\n~ Top markotop seru abis BUSA45 i,\ngsampe lupa waktu )BUSA45 (>\n#)\nBalas\n© Tambahkan komentar u... (4",
+            "normalized_text": "gap oo liege pp esis) 3/0) 9 es cap | an 0 | | lid - eee beam “ = eo eepeeions: oe | . q@ im_googole 8 menit “\" gila sih favorit banget busa45 3% v tiap malem di kasi jjatah busa45 9 balas lihat terjemahan lihat 1 balasan lainnya g@ kalpo_550 8 menit gampang scater bosku@ busa45 v @ ) balas lihat terjemahan lihat 1 balasan lainnya e its_raj_king_up_50 8 menit ~ top markotop seru abis busa45 i, gsampe lupa waktu )busa45 (> #) balas © tambahkan komentar u... (4",
+            "confidence": 0.596,
+            "quality": 0.717,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "preprocessing": "clahe_otsu",
+            "variants_tested": 4,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "human_review": {
+            "decision": null,
+            "reviewer": null,
+            "reviewed_at": null,
+            "notes": null
+        }
+    }
+]

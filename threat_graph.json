@@ -1,0 +1,2154 @@
+{
+    "nodes": [
+        {
+            "id": "case:CASE-0001",
+            "type": "case",
+            "value": "CASE-0001"
+        },
+        {
+            "id": "payment:qris",
+            "type": "payment",
+            "value": "qris"
+        },
+        {
+            "id": "case:CASE-0002",
+            "type": "case",
+            "value": "CASE-0002"
+        },
+        {
+            "id": "account:@busa45",
+            "type": "account",
+            "value": "@busa45"
+        },
+        {
+            "id": "domain:busa45.com",
+            "type": "domain",
+            "value": "busa45.com"
+        },
+        {
+            "id": "contact:+628123456789020",
+            "type": "contact",
+            "value": "+628123456789020"
+        },
+        {
+            "id": "payment:bank_account",
+            "type": "payment",
+            "value": "bank_account"
+        },
+        {
+            "id": "payment:phone_number",
+            "type": "payment",
+            "value": "phone_number"
+        },
+        {
+            "id": "case:CASE-0003",
+            "type": "case",
+            "value": "CASE-0003"
+        },
+        {
+            "id": "case:CASE-0004",
+            "type": "case",
+            "value": "CASE-0004"
+        },
+        {
+            "id": "case:CASE-0005",
+            "type": "case",
+            "value": "CASE-0005"
+        },
+        {
+            "id": "case:CASE-0006",
+            "type": "case",
+            "value": "CASE-0006"
+        },
+        {
+            "id": "case:CASE-0007",
+            "type": "case",
+            "value": "CASE-0007"
+        },
+        {
+            "id": "case:CASE-0008",
+            "type": "case",
+            "value": "CASE-0008"
+        },
+        {
+            "id": "case:CASE-0009",
+            "type": "case",
+            "value": "CASE-0009"
+        },
+        {
+            "id": "case:CASE-0010",
+            "type": "case",
+            "value": "CASE-0010"
+        },
+        {
+            "id": "case:CASE-0011",
+            "type": "case",
+            "value": "CASE-0011"
+        },
+        {
+            "id": "case:CASE-0012",
+            "type": "case",
+            "value": "CASE-0012"
+        },
+        {
+            "id": "case:CASE-0013",
+            "type": "case",
+            "value": "CASE-0013"
+        },
+        {
+            "id": "case:CASE-0014",
+            "type": "case",
+            "value": "CASE-0014"
+        }
+    ],
+    "links": [
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:bank_account",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:bank_account",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:bank_account",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "has_account"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "contains_domain"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "contains_contact"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "payment_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0001",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0002",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:bank_account",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0003",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0004",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0005",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0006",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0007",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0008",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "domain:busa45.com",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:phone_number",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "account:@busa45",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "contact:+628123456789020",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0009",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0010",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0011",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0012",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0013",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        },
+        {
+            "source": "case:CASE-0014",
+            "target": "payment:qris",
+            "relation": "shared_indicator"
+        }
+    ],
+    "node_count": 20,
+    "link_count": 409,
+    "status": "success"
+}

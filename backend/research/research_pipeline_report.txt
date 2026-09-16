@@ -1,0 +1,68 @@
+========================================================================
+GUARDNET-AI — RESEARCH PIPELINE AUDIT
+========================================================================
+
+1. DATASET CHARACTERISTICS
+------------------------------------------------------------------------
+Total content units: 15
+Unique sample IDs: 15
+Duplicate sample IDs: 0
+
+Source type:
+  Instagram: 15 (100.00%)
+
+Content type:
+  post: 15 (100.00%)
+
+Unique accounts: 15
+Duplicate account occurrences: 0
+
+Modalities:
+  image: 0 available, 15 missing (0.00% available)
+  ocr: 0 available, 15 missing (0.00% available)
+  visual: 0 available, 15 missing (0.00% available)
+  audio_asr: 0 available, 15 missing (0.00% available)
+
+Provisional label distribution:
+  C0: 5
+  C1: 5
+  C2: 5
+
+2. ANNOTATION QUALITY
+------------------------------------------------------------------------
+Samples with two valid annotations: 0
+Observed agreement: NOT AVAILABLE
+Cohen's Kappa: NOT INFORMATIVE / UNDEFINED
+Kappa status: UNDEFINED_OR_NOT_INFORMATIVE: hanya satu kategori digunakan oleh kedua annotator.
+Agreements: 0
+Disagreements: 0
+
+A1 distribution:
+  C0: 0
+  C1: 0
+  C2: 0
+
+A2 distribution:
+  C0: 0
+  C1: 0
+  C2: 0
+
+3. PROVISIONAL LABEL VS HUMAN ANNOTATION
+------------------------------------------------------------------------
+Samples checked: 15
+Samples where provisional label differs from at least one human annotation: 15
+
+4. RESEARCH DECISION
+------------------------------------------------------------------------
+STATUS: PILOT DATA REQUIRES QUALITY CONTROL.
+Provisional labels MUST NOT be promoted to final ground truth.
+
+IMPORTANT:
+- This report does not fabricate metrics.
+- Provisional labels are not ground truth.
+- Model predictions must not be used as ground truth.
+- Final train/validation/test counts require final adjudicated labels.
+
+========================================================================
+END OF REPORT
+========================================================================

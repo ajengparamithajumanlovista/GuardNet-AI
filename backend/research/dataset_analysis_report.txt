@@ -1,0 +1,62 @@
+========================================================================
+GUARDNET-AI — FINAL RESEARCH DATASET REPORT
+========================================================================
+
+STATUS: DATA-DRIVEN REPORT — NO FABRICATED METRICS
+
+1. DATASET CHARACTERISTICS
+------------------------------------------------------------------------
+Total content units: 15
+
+Final ground-truth distribution:
+  BELUM TERSEDIA — final_label belum diisi.
+
+Source type:
+  Instagram: 15 (100.00%)
+
+Content type:
+  post: 15 (100.00%)
+
+Modalities available:
+  image: 0 (0.00%)
+  ocr: 0 (0.00%)
+  visual: 0 (0.00%)
+  audio_asr: 0 (0.00%)
+
+Unique accounts: 15
+
+2. ANNOTATION QUALITY
+------------------------------------------------------------------------
+Samples with two valid independent annotations: 0
+Observed agreement: NOT AVAILABLE
+Cohen's Kappa: NOT AVAILABLE
+Interpretation: Isi annotator_1 dan annotator_2 setelah anotasi independen.
+
+Disagreements requiring adjudication: 0
+
+3. DATA QUALITY VALIDATION
+------------------------------------------------------------------------
+Errors: 0
+
+Warnings: 0
+
+4. RESEARCH SAFETY CHECKS
+------------------------------------------------------------------------
+Ground truth must come from adjudicated human annotation, not from GuardNet-AI predictions.
+Pilot/test data must not be reported as final model performance.
+Training/validation/testing must preserve account-disjoint evaluation according to the research protocol.
+All final claims must be generated from the actual collected dataset.
+
+5. DATASET PROTOCOL ALIGNMENT
+------------------------------------------------------------------------
+Target minimum content units in the proposal: 3,000 unique units.
+Planned split: 70% training / 15% validation / 15% testing.
+Minimum split constraint: account-disjoint.
+Classes: C0, C1, C2.
+Annotation: at least two independent annotators.
+Agreement: Cohen's Kappa.
+Disagreement: adjudication before final ground truth.
+
+========================================================================
+END OF REPORT
+========================================================================

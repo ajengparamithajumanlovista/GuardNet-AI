@@ -1,0 +1,974 @@
+[
+    {
+        "case_id": "6875ab61-8e8a-4bea-ab62-ad6fec31a3c2",
+        "created_at": "2026-08-13T15:41:21.733968+00:00",
+        "source": "GuardNet-AI",
+        "filename": "judi1.jpg.jpeg",
+        "text": "[OCR]\nOy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+        "caption": "",
+        "comments": [],
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.786,
+            "active_modalities": 4,
+            "active_modality_names": [
+                "text",
+                "ocr",
+                "visual",
+                "entity"
+            ],
+            "reliability": {
+                "text": 0.9,
+                "ocr": 0.945,
+                "visual": 1.0,
+                "payment": 0.0,
+                "entity": 0.2
+            },
+            "adaptive_weights": {
+                "text": 0.537,
+                "ocr": 0.31,
+                "visual": 0.13,
+                "payment": 0.0,
+                "entity": 0.023
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.65,
+                    "label": "C1",
+                    "reliability": 0.9,
+                    "weight": 0.537
+                },
+                "ocr": {
+                    "score": 0.65,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.945,
+                    "weight": 0.31
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.13
+                },
+                "payment": {
+                    "score": 0.0,
+                    "evidence": [],
+                    "reliability": 0.0,
+                    "weight": 0.0
+                },
+                "entity": {
+                    "score": 0.0,
+                    "reliability": 0.2,
+                    "weight": 0.023
+                },
+                "cross_modal": {
+                    "gambling_hits": [
+                        "scatter"
+                    ],
+                    "promotional_hits": [
+                        "gampang scatter",
+                        "scatter bosku",
+                        "tiap malem di kasi jatah"
+                    ],
+                    "evidence_sources": [
+                        "ocr",
+                        "text"
+                    ],
+                    "evidence_boost": 0.18
+                }
+            },
+            "explanation": {
+                "summary": "Konten memiliki indikasi kuat terkait aktivitas atau promosi perjudian online.",
+                "risk_level": "HIGH",
+                "classification": "C2",
+                "risk_score": 0.775,
+                "confidence_percent": 78.6,
+                "reasons": [
+                    "Indikator perjudian terdeteksi: scatter.",
+                    "Pola promosi mencurigakan terdeteksi: gampang scatter, scatter bosku, tiap malem di kasi jatah.",
+                    "Bukti perjudian terdeteksi secara konsisten pada Text Classification dan OCR.",
+                    "Sistem menggunakan bukti multimodal dari OCR, Text Classification."
+                ],
+                "evidence_sources": [
+                    "OCR",
+                    "Text Classification"
+                ],
+                "evidence_count": 4,
+                "multimodal": true
+            },
+            "status": "success",
+            "label": "C2"
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [],
+            "threat_indicator": [],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                }
+            ],
+            "graph_links": [],
+            "entity_count": 1
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment": {
+            "detected": false,
+            "evidence": [],
+            "risk": 0.0
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "raw_text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "normalized_text": "oy lte cd lly aae4 ae bat cloct tect o ph 0 oe aoe . bes isa so hie ro2069k rekook x reodok 4 if im_googole 8 menit gila sih favorit banget busa45 4 tiap malem di kasi jatah busa45 5 balas lihat terjemahan lihat 1 balasan lainnya a kalpo_550 8 menit gampang scatter bosku@ busa45 g rn 5 balas lihat terjemahan lihat 1 balasan lainnya its_raj_king_up_50 8 menit top markotop seru abis - busa45 y fi gsampe lupa waktu - busa4s 4 balas q tambahkan komentar u... 4",
+            "classification": {
+                "label": "C1",
+                "score": 0.6,
+                "probabilities": {
+                    "C0": 0.4,
+                    "C1": 0.6,
+                    "C2": 0.05
+                }
+            },
+            "score": 0.6,
+            "label": "C1",
+            "confidence": 0.8,
+            "quality": 0.9,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "strong_promotional_phrases": [
+                "scatter bosku",
+                "tiap malem di kasi jatah",
+                "gampang scatter"
+            ],
+            "suspicious_combinations": [],
+            "strong_gambling_combinations": [],
+            "anti_gambling_phrases": [],
+            "negative_context": [],
+            "contact_evidence": [],
+            "gambling_relevance": 0.3,
+            "promotional_intent": 0.35,
+            "preprocessing": "original",
+            "variants_tested": 5,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "correlation": {
+            "related_cases": [],
+            "related_case_count": 0,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": []
+            },
+            "shared_indicator_count": 0,
+            "strong_shared_indicator_count": 0,
+            "correlation_level": "NONE",
+            "recurrence": {
+                "count": 0,
+                "score": 0.0,
+                "level": "NONE"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 0,
+            "score": 0.0,
+            "level": "NONE"
+        },
+        "cyber_security": {
+            "security_score": 0.775,
+            "severity": "HIGH",
+            "action": "BLOCK_AND_REVIEW",
+            "alerts": [
+                "High-risk gambling promotion detected."
+            ],
+            "controls": {
+                "payment_monitoring": false,
+                "entity_monitoring": true,
+                "recurrence_monitoring": false,
+                "manual_review": true
+            },
+            "status": "success"
+        },
+        "status": "PENDING_REVIEW"
+    },
+    {
+        "case_id": "d6abdddd-e41e-4e0e-81e7-be860433d2cf",
+        "created_at": "2026-08-13T15:42:37.295994+00:00",
+        "source": "GuardNet-AI",
+        "filename": "judi1.jpg.jpeg",
+        "text": "[OCR]\nOy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+        "caption": "",
+        "comments": [],
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.786,
+            "active_modalities": 4,
+            "active_modality_names": [
+                "text",
+                "ocr",
+                "visual",
+                "entity"
+            ],
+            "reliability": {
+                "text": 0.9,
+                "ocr": 0.945,
+                "visual": 1.0,
+                "payment": 0.0,
+                "entity": 0.2
+            },
+            "adaptive_weights": {
+                "text": 0.537,
+                "ocr": 0.31,
+                "visual": 0.13,
+                "payment": 0.0,
+                "entity": 0.023
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.65,
+                    "label": "C1",
+                    "reliability": 0.9,
+                    "weight": 0.537
+                },
+                "ocr": {
+                    "score": 0.65,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.945,
+                    "weight": 0.31
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.13
+                },
+                "payment": {
+                    "score": 0.0,
+                    "evidence": [],
+                    "reliability": 0.0,
+                    "weight": 0.0
+                },
+                "entity": {
+                    "score": 0.0,
+                    "reliability": 0.2,
+                    "weight": 0.023
+                },
+                "cross_modal": {
+                    "gambling_hits": [
+                        "scatter"
+                    ],
+                    "promotional_hits": [
+                        "gampang scatter",
+                        "scatter bosku",
+                        "tiap malem di kasi jatah"
+                    ],
+                    "evidence_sources": [
+                        "ocr",
+                        "text"
+                    ],
+                    "evidence_boost": 0.18
+                }
+            },
+            "explanation": {
+                "summary": "Konten memiliki indikasi kuat terkait aktivitas atau promosi perjudian online.",
+                "risk_level": "HIGH",
+                "classification": "C2",
+                "risk_score": 0.775,
+                "confidence_percent": 78.6,
+                "reasons": [
+                    "Indikator perjudian terdeteksi: scatter.",
+                    "Pola promosi mencurigakan terdeteksi: gampang scatter, scatter bosku, tiap malem di kasi jatah.",
+                    "Bukti perjudian terdeteksi secara konsisten pada Text Classification dan OCR.",
+                    "Sistem menggunakan bukti multimodal dari OCR, Text Classification."
+                ],
+                "evidence_sources": [
+                    "OCR",
+                    "Text Classification"
+                ],
+                "evidence_count": 4,
+                "multimodal": true
+            },
+            "status": "success",
+            "label": "C2"
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [],
+            "threat_indicator": [],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                }
+            ],
+            "graph_links": [],
+            "entity_count": 1
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment": {
+            "detected": false,
+            "evidence": [],
+            "risk": 0.0
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "raw_text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "normalized_text": "oy lte cd lly aae4 ae bat cloct tect o ph 0 oe aoe . bes isa so hie ro2069k rekook x reodok 4 if im_googole 8 menit gila sih favorit banget busa45 4 tiap malem di kasi jatah busa45 5 balas lihat terjemahan lihat 1 balasan lainnya a kalpo_550 8 menit gampang scatter bosku@ busa45 g rn 5 balas lihat terjemahan lihat 1 balasan lainnya its_raj_king_up_50 8 menit top markotop seru abis - busa45 y fi gsampe lupa waktu - busa4s 4 balas q tambahkan komentar u... 4",
+            "classification": {
+                "label": "C1",
+                "score": 0.6,
+                "probabilities": {
+                    "C0": 0.4,
+                    "C1": 0.6,
+                    "C2": 0.05
+                }
+            },
+            "score": 0.6,
+            "label": "C1",
+            "confidence": 0.8,
+            "quality": 0.9,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "strong_promotional_phrases": [
+                "scatter bosku",
+                "tiap malem di kasi jatah",
+                "gampang scatter"
+            ],
+            "suspicious_combinations": [],
+            "strong_gambling_combinations": [],
+            "anti_gambling_phrases": [],
+            "negative_context": [],
+            "contact_evidence": [],
+            "gambling_relevance": 0.3,
+            "promotional_intent": 0.35,
+            "preprocessing": "original",
+            "variants_tested": 5,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "correlation": {
+            "related_cases": [],
+            "related_case_count": 0,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": []
+            },
+            "shared_indicator_count": 0,
+            "strong_shared_indicator_count": 0,
+            "correlation_level": "NONE",
+            "recurrence": {
+                "count": 0,
+                "score": 0.0,
+                "level": "NONE"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 0,
+            "score": 0.0,
+            "level": "NONE"
+        },
+        "cyber_security": {
+            "security_score": 0.775,
+            "severity": "HIGH",
+            "action": "BLOCK_AND_REVIEW",
+            "alerts": [
+                "High-risk gambling promotion detected."
+            ],
+            "controls": {
+                "payment_monitoring": false,
+                "entity_monitoring": true,
+                "recurrence_monitoring": false,
+                "manual_review": true
+            },
+            "status": "success"
+        },
+        "status": "PENDING_REVIEW"
+    },
+    {
+        "case_id": "e1d10a87-a2ee-4350-a360-775f63039b77",
+        "created_at": "2026-08-13T16:04:41.934133+00:00",
+        "source": "GuardNet-AI",
+        "filename": "judi1.jpg.jpeg",
+        "text": "[OCR]\nOy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+        "caption": "",
+        "comments": [],
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.786,
+            "active_modalities": 4,
+            "active_modality_names": [
+                "text",
+                "ocr",
+                "visual",
+                "entity"
+            ],
+            "reliability": {
+                "text": 0.9,
+                "ocr": 0.945,
+                "visual": 1.0,
+                "payment": 0.0,
+                "entity": 0.2
+            },
+            "adaptive_weights": {
+                "text": 0.537,
+                "ocr": 0.31,
+                "visual": 0.13,
+                "payment": 0.0,
+                "entity": 0.023
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.65,
+                    "label": "C1",
+                    "reliability": 0.9,
+                    "weight": 0.537
+                },
+                "ocr": {
+                    "score": 0.65,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.945,
+                    "weight": 0.31
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.13
+                },
+                "payment": {
+                    "score": 0.0,
+                    "evidence": [],
+                    "reliability": 0.0,
+                    "weight": 0.0
+                },
+                "entity": {
+                    "score": 0.0,
+                    "reliability": 0.2,
+                    "weight": 0.023
+                },
+                "cross_modal": {
+                    "gambling_hits": [
+                        "scatter"
+                    ],
+                    "promotional_hits": [
+                        "gampang scatter",
+                        "scatter bosku",
+                        "tiap malem di kasi jatah"
+                    ],
+                    "evidence_sources": [
+                        "ocr",
+                        "text"
+                    ],
+                    "evidence_boost": 0.18
+                }
+            },
+            "explanation": {
+                "summary": "Konten memiliki indikasi kuat terkait aktivitas atau promosi perjudian online.",
+                "risk_level": "HIGH",
+                "classification": "C2",
+                "risk_score": 0.775,
+                "confidence_percent": 78.6,
+                "reasons": [
+                    "Indikator perjudian terdeteksi: scatter.",
+                    "Pola promosi mencurigakan terdeteksi: gampang scatter, scatter bosku, tiap malem di kasi jatah.",
+                    "Bukti perjudian terdeteksi secara konsisten pada Text Classification dan OCR.",
+                    "Sistem menggunakan bukti multimodal dari OCR, Text Classification."
+                ],
+                "evidence_sources": [
+                    "OCR",
+                    "Text Classification"
+                ],
+                "evidence_count": 4,
+                "multimodal": true
+            },
+            "status": "success",
+            "label": "C2"
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [],
+            "threat_indicator": [],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                }
+            ],
+            "graph_links": [],
+            "entity_count": 1
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment": {
+            "detected": false,
+            "evidence": [],
+            "risk": 0.0
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "raw_text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "normalized_text": "oy lte cd lly aae4 ae bat cloct tect o ph 0 oe aoe . bes isa so hie ro2069k rekook x reodok 4 if im_googole 8 menit gila sih favorit banget busa45 4 tiap malem di kasi jatah busa45 5 balas lihat terjemahan lihat 1 balasan lainnya a kalpo_550 8 menit gampang scatter bosku@ busa45 g rn 5 balas lihat terjemahan lihat 1 balasan lainnya its_raj_king_up_50 8 menit top markotop seru abis - busa45 y fi gsampe lupa waktu - busa4s 4 balas q tambahkan komentar u... 4",
+            "classification": {
+                "label": "C1",
+                "score": 0.6,
+                "probabilities": {
+                    "C0": 0.4,
+                    "C1": 0.6,
+                    "C2": 0.05
+                }
+            },
+            "score": 0.6,
+            "label": "C1",
+            "confidence": 0.8,
+            "quality": 0.9,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "strong_promotional_phrases": [
+                "scatter bosku",
+                "tiap malem di kasi jatah",
+                "gampang scatter"
+            ],
+            "suspicious_combinations": [],
+            "strong_gambling_combinations": [],
+            "anti_gambling_phrases": [],
+            "negative_context": [],
+            "contact_evidence": [],
+            "gambling_relevance": 0.3,
+            "promotional_intent": 0.35,
+            "preprocessing": "original",
+            "variants_tested": 5,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "correlation": {
+            "related_cases": [],
+            "related_case_count": 0,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": []
+            },
+            "shared_indicator_count": 0,
+            "strong_shared_indicator_count": 0,
+            "correlation_level": "NONE",
+            "recurrence": {
+                "count": 0,
+                "score": 0.0,
+                "level": "NONE"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 0,
+            "score": 0.0,
+            "level": "NONE"
+        },
+        "cyber_security": {
+            "security_score": 0.775,
+            "severity": "HIGH",
+            "action": "BLOCK_AND_REVIEW",
+            "alerts": [
+                "High-risk gambling promotion detected."
+            ],
+            "controls": {
+                "payment_monitoring": false,
+                "entity_monitoring": true,
+                "recurrence_monitoring": false,
+                "manual_review": true
+            },
+            "status": "success"
+        },
+        "status": "PENDING_REVIEW"
+    },
+    {
+        "case_id": "8d94bbe2-0f32-4c8a-a6a3-d271b0d2caa9",
+        "created_at": "2026-08-13T16:16:24.852786+00:00",
+        "source": "GuardNet-AI",
+        "filename": "judi1.jpg.jpeg",
+        "text": "[OCR]\nOy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+        "caption": "",
+        "comments": [],
+        "classification": {
+            "classification": "C2",
+            "risk_score": 0.775,
+            "confidence": 0.786,
+            "active_modalities": 4,
+            "active_modality_names": [
+                "text",
+                "ocr",
+                "visual",
+                "entity"
+            ],
+            "reliability": {
+                "text": 0.9,
+                "ocr": 0.945,
+                "visual": 1.0,
+                "payment": 0.0,
+                "entity": 0.2
+            },
+            "adaptive_weights": {
+                "text": 0.537,
+                "ocr": 0.31,
+                "visual": 0.13,
+                "payment": 0.0,
+                "entity": 0.023
+            },
+            "evidence": {
+                "text": {
+                    "score": 0.65,
+                    "label": "C1",
+                    "reliability": 0.9,
+                    "weight": 0.537
+                },
+                "ocr": {
+                    "score": 0.65,
+                    "gambling_terms": [
+                        "scatter"
+                    ],
+                    "promotional_terms": [],
+                    "reliability": 0.945,
+                    "weight": 0.31
+                },
+                "visual": {
+                    "score": 0.342,
+                    "evidence": [
+                        "high_contrast"
+                    ],
+                    "reliability": 1.0,
+                    "weight": 0.13
+                },
+                "payment": {
+                    "score": 0.0,
+                    "evidence": [],
+                    "reliability": 0.0,
+                    "weight": 0.0
+                },
+                "entity": {
+                    "score": 0.0,
+                    "reliability": 0.2,
+                    "weight": 0.023
+                },
+                "cross_modal": {
+                    "gambling_hits": [
+                        "scatter"
+                    ],
+                    "promotional_hits": [
+                        "gampang scatter",
+                        "scatter bosku",
+                        "tiap malem di kasi jatah"
+                    ],
+                    "evidence_sources": [
+                        "ocr",
+                        "text"
+                    ],
+                    "evidence_boost": 0.18
+                }
+            },
+            "explanation": {
+                "summary": "Konten memiliki indikasi kuat terkait aktivitas atau promosi perjudian online.",
+                "risk_level": "HIGH",
+                "classification": "C2",
+                "risk_score": 0.775,
+                "confidence_percent": 78.6,
+                "reasons": [
+                    "Indikator perjudian terdeteksi: scatter.",
+                    "Pola promosi mencurigakan terdeteksi: gampang scatter, scatter bosku, tiap malem di kasi jatah.",
+                    "Bukti perjudian terdeteksi secara konsisten pada Text Classification dan OCR.",
+                    "Sistem menggunakan bukti multimodal dari OCR, Text Classification."
+                ],
+                "evidence_sources": [
+                    "OCR",
+                    "Text Classification"
+                ],
+                "evidence_count": 4,
+                "multimodal": true
+            },
+            "status": "success",
+            "label": "C2"
+        },
+        "entities": {
+            "account": [],
+            "phone": [],
+            "url": [],
+            "domain": [],
+            "bank_account": [],
+            "payment_indicator": [],
+            "threat_indicator": [],
+            "nodes": [
+                {
+                    "type": "post",
+                    "value": "instagram_post"
+                }
+            ],
+            "graph_links": [],
+            "entity_count": 1
+        },
+        "digital_intelligence": {
+            "account": [],
+            "url": [],
+            "domain": [],
+            "contact": [],
+            "entity_count": 0,
+            "status": "success",
+            "graph_links": []
+        },
+        "payment": {
+            "detected": false,
+            "evidence": [],
+            "risk": 0.0
+        },
+        "qris": {
+            "detected": false,
+            "is_qris": false,
+            "type": null,
+            "data": null,
+            "merchant_name": null,
+            "merchant_city": null,
+            "mcc": null,
+            "amount": null,
+            "evidence": []
+        },
+        "ocr": {
+            "text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "raw_text": "Oy “ LTE CD\n— lly aae4\nae\n— =\nBat cloct tect o\nPH °° | %0| | oe\n,, aoe\n~. bes isa =)\nso Hie Ro2069K | ReKOOK |x ReODOK | 4 »\nif ) im_googole 8 menit\ngila sih favorit banget BUSA45 °% 4\ntiap malem di kasi jatah BUSA45 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\na¢ Kalpo_550 8 menit\ngampang scater bosku@§ BUSA45 g\nrN 5\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n& its_raj_king_up_50 8 menit\nTop markotop seru abis - BUSA45 Y\nfi gsampe lupa waktu -)BusA4s =>\n4»\nBalas\nQ Tambahkan komentar u... &) 4)",
+            "normalized_text": "oy lte cd lly aae4 ae bat cloct tect o ph 0 oe aoe . bes isa so hie ro2069k rekook x reodok 4 if im_googole 8 menit gila sih favorit banget busa45 4 tiap malem di kasi jatah busa45 5 balas lihat terjemahan lihat 1 balasan lainnya a kalpo_550 8 menit gampang scatter bosku@ busa45 g rn 5 balas lihat terjemahan lihat 1 balasan lainnya its_raj_king_up_50 8 menit top markotop seru abis - busa45 y fi gsampe lupa waktu - busa4s 4 balas q tambahkan komentar u... 4",
+            "classification": {
+                "label": "C1",
+                "score": 0.6,
+                "probabilities": {
+                    "C0": 0.4,
+                    "C1": 0.6,
+                    "C2": 0.05
+                }
+            },
+            "score": 0.6,
+            "label": "C1",
+            "confidence": 0.8,
+            "quality": 0.9,
+            "gambling_terms": [
+                "scatter"
+            ],
+            "promotional_terms": [],
+            "strong_promotional_phrases": [
+                "tiap malem di kasi jatah",
+                "gampang scatter",
+                "scatter bosku"
+            ],
+            "suspicious_combinations": [],
+            "strong_gambling_combinations": [],
+            "anti_gambling_phrases": [],
+            "negative_context": [],
+            "contact_evidence": [],
+            "gambling_relevance": 0.3,
+            "promotional_intent": 0.35,
+            "preprocessing": "original",
+            "variants_tested": 5,
+            "status": "success"
+        },
+        "visual": {
+            "width": 739,
+            "height": 1600,
+            "brightness": 46.869,
+            "contrast": 59.161,
+            "saturation": 54.979,
+            "colorfulness": 31.632,
+            "edge_density": 0.0542,
+            "text_density": 0.3488,
+            "high_saturation_ratio": 0.0566,
+            "visual_score": 0.342,
+            "evidence": [
+                "high_contrast"
+            ],
+            "status": "success"
+        },
+        "correlation": {
+            "related_cases": [],
+            "related_case_count": 0,
+            "shared_indicators": {
+                "account": [],
+                "domain": [],
+                "url": [],
+                "contact": [],
+                "payment": []
+            },
+            "shared_indicator_count": 0,
+            "strong_shared_indicator_count": 0,
+            "correlation_level": "NONE",
+            "recurrence": {
+                "count": 0,
+                "score": 0.0,
+                "level": "NONE"
+            },
+            "status": "success"
+        },
+        "recurrence": {
+            "count": 0,
+            "score": 0.0,
+            "level": "NONE"
+        },
+        "cyber_security": {
+            "security_score": 0.775,
+            "severity": "HIGH",
+            "action": "BLOCK_AND_REVIEW",
+            "alerts": [
+                "High-risk gambling promotion detected."
+            ],
+            "controls": {
+                "payment_monitoring": false,
+                "entity_monitoring": true,
+                "recurrence_monitoring": false,
+                "manual_review": true
+            },
+            "status": "success"
+        },
+        "status": "PENDING_REVIEW"
+    }
+]

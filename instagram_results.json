@@ -1,0 +1,125 @@
+[
+    {
+        "account": "@slot_gacor123",
+        "caption": "🔥 Slot gacor bonus besar deposit QRIS daftar sekarang",
+        "result": {
+            "status": "success",
+            "mode": "multimodal",
+            "filename": "judi1.jpg",
+            "classification": {
+                "classification": "C2",
+                "risk_score": 0.7,
+                "evidence": {
+                    "text": 0.9,
+                    "ocr": 0.0,
+                    "visual": 0.5,
+                    "payment": 1,
+                    "entity": 0.4
+                }
+            },
+            "caption": "🔥 Slot gacor bonus besar deposit QRIS daftar sekarang",
+            "ocr": {
+                "text": "20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+                "length": 386,
+                "status": "success"
+            },
+            "visual": {
+                "width": 739,
+                "height": 1600,
+                "brightness": 46.34174644790257,
+                "mean_rgb": {
+                    "r": 48.423921684709065,
+                    "g": 46.769670162381594,
+                    "b": 43.83164749661705
+                },
+                "visual_score": 0.5
+            },
+            "qris": {
+                "detected": false,
+                "is_qris": false,
+                "type": null,
+                "data": null,
+                "merchant_name": null,
+                "merchant_city": null,
+                "mcc": null,
+                "amount": null,
+                "evidence": []
+            },
+            "text": {
+                "label": "C2",
+                "score": 0.9
+            },
+            "payment": {
+                "detected": true,
+                "evidence": [
+                    "qris"
+                ],
+                "risk": 0.25
+            },
+            "entities": {
+                "account": [],
+                "phone": [],
+                "url": [],
+                "domain": [],
+                "bank_account": [],
+                "payment_indicator": [
+                    "qr",
+                    "qris",
+                    "deposit"
+                ],
+                "threat_indicator": [
+                    "deposit",
+                    "bonus",
+                    "slot",
+                    "daftar",
+                    "gacor"
+                ],
+                "nodes": [
+                    {
+                        "type": "post",
+                        "value": "instagram_post"
+                    },
+                    {
+                        "type": "payment",
+                        "value": "qris"
+                    },
+                    {
+                        "type": "payment",
+                        "value": "qr"
+                    },
+                    {
+                        "type": "payment",
+                        "value": "deposit"
+                    }
+                ],
+                "graph_links": [
+                    {
+                        "source": "instagram_post",
+                        "target": "qris",
+                        "relation": "payment_indicator"
+                    },
+                    {
+                        "source": "instagram_post",
+                        "target": "qr",
+                        "relation": "payment_indicator"
+                    },
+                    {
+                        "source": "instagram_post",
+                        "target": "deposit",
+                        "relation": "payment_indicator"
+                    }
+                ],
+                "entity_count": 4
+            },
+            "combined_text": "🔥 Slot gacor bonus besar deposit QRIS daftar sekarang 20.55 oo LEC\n\na\n\n| im_googole 8 menit\n\" gila sih favorit banget BUSA45\ntiap malem di kasi jatah BUSA45\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nkalpo_550 8 menit\ngampang scater bosku @ BUSA45\n\nBalas Lihat terjemahan\nLihat 1 balasan lainnya\n\nits_raj_king_up_50 8 menit\n\nTop markotop seru abis BUSA45\ngsampe lupa waktu <= BUSA45\n=\n\nBalas\n\n@\n\na G\n\nEQ Tambahkan komentar u... &4 (6)",
+            "processing_time": 1.07
+        }
+    },
+    {
+        "account": "@travel_indonesia",
+        "caption": "Liburan indah bersama keluarga di pantai",
+        "result": {
+            "error": "[Errno 2] No such file or directory: 'dataset/instagram/safe.jpg'"
+        }
+    }
+]
